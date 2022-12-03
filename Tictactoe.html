@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/styles.css">
+    <script src="./index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4bca82d65c.js" crossorigin="anonymous"></script>
+   
+
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+     <!-- header -->
+<header>
+    <!-- Nav -->
+    <div class="nav container1">
+        <!-- logo -->
+        <a href="index.html" class="logo">King<span>Games</span></a>
+        <!-- Nav icons-->
+        <div class="nav-icons">
+            <i class="fa-regular fa-bell" id="bell-icon"><span></span></i>
+            
+            <div class="menu-icons">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>            
+        </div>
+        <!-- Menu -->
+        <div class="menu">
+            <img src="./images/wallpaper.png" alt="">
+            <div class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#new">New Games</a></li>
+                <li><a href="#action">Action Games</a></li>
+
+            </div>
+        </div>
+
+        <div class="notification">
+            <div class="notification-box">
+                <i class="fa-solid fa-check"></i>
+                <p>Congrates</p>    
+            </div>
+            <div class="notification-box box-color">
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+                <p>Changes could not be applied</p>    
+            </div>
+
+        </div>
+    </div>
+    <!-- Tic Tac Toe -->
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <section class="display">
+            Player <span class="display-player player x">X</span>s turn
+        </section>
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+</header>
+
+<!--Copyright -->
+<div class="copyright container">
+    <a href="#" class="logo">King<span>Games</span></a>
+    <p>&#169; Shoaibimran All rights reserved</p>
+</div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
